@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flaminense - Elite Rocket League Team</title>
+    <meta name="description" content="Flaminense - Time profissional de Rocket League. União da paixão do futebol brasileiro com a excelência competitiva do esports." />
+    <meta name="author" content="Flaminense Esports" />
+
+    <meta property="og:title" content="Flaminense - Elite Rocket League Team" />
+    <meta property="og:description" content="Time profissional de Rocket League. Conheça nosso elenco e estatísticas." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@lovable_dev" />
+  <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/public/rocket-league-favicon.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+  <footer style="width:100%;text-align:center;padding:24px 0 12px 0;color:#fff;background:transparent;font-size:1rem;position:relative;z-index:100;">
+      &copy; <span id="year"></span> Flaminense
+    </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
