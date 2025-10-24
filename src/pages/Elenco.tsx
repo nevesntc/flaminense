@@ -53,10 +53,8 @@ const Elenco = () => {
               </ToggleGroup>
             </div>
 
-            <div className="bg-card rounded-lg p-8 shadow-card mb-8">
-              <div className="relative aspect-video bg-secondary/20 rounded-lg overflow-hidden">
-                {/* Se a imagem local não existir, use SVG público */}
-                <img src="/assets/RocketLeagueArenaBg.png" alt="Rocket League Arena Background" onError={(e) => { e.currentTarget.src = 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Rocket_League_field.svg'; }} />
+            <div className="rounded-lg p-8 mb-8">
+              <div className="relative aspect-video rounded-lg overflow-hidden">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center w-full px-4">
                     <p className="text-muted-foreground mb-8">
@@ -64,19 +62,19 @@ const Elenco = () => {
                     </p>
                     {/* 3x3 Formation */}
                     {formation === "3x3" && (
-                      <div className="space-y-8 sm:space-y-16 py-4 sm:py-8">
+                      <div className="space-y-4 sm:space-y-16 py-2 sm:py-8">
                         {/* Frente */}
                         <div className="flex justify-center">
-                          <div className="w-10 h-10 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-lg sm:text-2xl">
+                          <div className="w-7 h-7 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-base sm:text-2xl">
                             1
                           </div>
                         </div>
                         {/* Atrás */}
-                        <div className="flex justify-center gap-8 sm:gap-32">
-                          <div className="w-10 h-10 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-lg sm:text-2xl">
+                        <div className="flex justify-center gap-4 sm:gap-32">
+                          <div className="w-7 h-7 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-base sm:text-2xl">
                             2
                           </div>
-                          <div className="w-10 h-10 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-lg sm:text-2xl">
+                          <div className="w-7 h-7 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-base sm:text-2xl">
                             3
                           </div>
                         </div>
@@ -84,25 +82,25 @@ const Elenco = () => {
                     )}
                     {/* 4x4 Formation - Diamond */}
                     {formation === "4x4" && (
-                      <div className="space-y-6 sm:space-y-12 py-4 sm:py-8">
+                      <div className="space-y-3 sm:space-y-12 py-1 sm:py-8">
                         {/* Ponta */}
                         <div className="flex justify-center">
-                          <div className="w-10 h-10 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-lg sm:text-2xl">
+                          <div className="w-7 h-7 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-base sm:text-2xl">
                             1
                           </div>
                         </div>
                         {/* Laterais */}
-                        <div className="flex justify-center gap-16 sm:gap-48">
-                          <div className="w-10 h-10 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-lg sm:text-2xl">
+                        <div className="flex justify-center gap-3 sm:gap-48">
+                          <div className="w-7 h-7 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-base sm:text-2xl">
                             2
                           </div>
-                          <div className="w-10 h-10 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-lg sm:text-2xl">
+                          <div className="w-7 h-7 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-base sm:text-2xl">
                             3
                           </div>
                         </div>
                         {/* Base */}
                         <div className="flex justify-center">
-                          <div className="w-10 h-10 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-lg sm:text-2xl">
+                          <div className="w-7 h-7 sm:w-16 sm:h-16 rounded-full gradient-primary flex items-center justify-center text-white font-bold shadow-glow text-base sm:text-2xl">
                             4
                           </div>
                         </div>
