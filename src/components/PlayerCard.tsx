@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
 import { Player } from "@/data/players";
-import playerPlaceholder from "@/assets/player-placeholder.jpg";
+// Removed playerPlaceholder import
 
 interface PlayerCardProps {
   player: Player;
@@ -13,7 +13,7 @@ const PlayerCard = ({ player }: PlayerCardProps) => {
       <Card className="overflow-hidden hover:shadow-glow transition-smooth cursor-pointer group h-full">
         <div className="relative aspect-square overflow-hidden">
           <img
-            src={player.image || playerPlaceholder}
+            src={player.image || "/assets/player-placeholder.jpg"}
             alt={player.nickname}
             className="object-cover w-full h-full group-hover:scale-110 transition-smooth"
           />

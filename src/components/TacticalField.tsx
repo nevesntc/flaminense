@@ -9,7 +9,7 @@ import {
 import { motion } from "framer-motion";
 import { players } from "../data/players";
 
-const bgImage = "/src/assets/6484668fa13ed491ee3078bcdcb20eb1.jpg";
+const bgImage = "/assets/6484668fa13ed491ee3078bcdcb20eb1.jpg";
 
 export default function TeamBuilder() {
   const [mode, setMode] = useState("3v3");

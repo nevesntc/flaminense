@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Trophy, Users, Target } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import { motion } from "framer-motion";
-import heroBanner from "@/assets/hero-banner.jpg";
+const heroBanner = "/assets/hero-banner.jpg";
 
 const Index = () => {
   return (

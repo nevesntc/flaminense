@@ -6,7 +6,7 @@ import { AnimatedNumber } from "@/components/AnimatedNumber";
 import Navbar from "@/components/Navbar";
 import { motion } from "framer-motion";
 import { players } from "@/data/players";
-import playerPlaceholder from "@/assets/player-placeholder.jpg";
+// ...existing code...
 
 const PlayerDetail = () => {
   const { id } = useParams();
@@ -48,7 +48,7 @@ const PlayerDetail = () => {
             <div className="relative">
               <div className="aspect-square rounded-lg overflow-hidden shadow-card">
                 <img
-                  src={player.image || playerPlaceholder}
+                  src={player.image || "/assets/player-placeholder.jpg"}
                   alt={player.nickname}
                   className="object-cover w-full h-full"
                 />

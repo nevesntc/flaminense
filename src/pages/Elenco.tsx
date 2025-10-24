@@ -55,7 +55,7 @@ const Elenco = () => {
 
             <div className="bg-card rounded-lg p-8 shadow-card mb-8">
               <div className="relative aspect-video bg-secondary/20 rounded-lg overflow-hidden">
-                <RocketLeagueArenaBg />
+                <img src="/assets/RocketLeagueArenaBg.png" alt="Rocket League Arena Background" />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center w-full px-4">
                     <p className="text-muted-foreground mb-8">

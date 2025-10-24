@@ -26,7 +26,7 @@ export const players: Player[] = [
     nickname: "Neves",
     position: "Meio-Campo",
     number: 1,
-    image: "/src/assets/neves.jpg",
+  image: "/assets/neves.jpg",
     stats: {
         wins: 9070,
         goalShotRatio: 44.4,
@@ -46,7 +46,7 @@ export const players: Player[] = [
     nickname: "Beerg",
     position: "Atacante",
     number: 2,
-    image: "/src/assets/beerg.png",
+  image: "/assets/beerg.png",
     stats: {
         wins: 3808,
         goalShotRatio: 48.5,
@@ -66,7 +66,7 @@ export const players: Player[] = [
     nickname: "C4I0B4",
     position: "Meio-Campo",
     number: 3,
-    image: "/src/assets/c4i0b4.jpg",
+  image: "/assets/c4i0b4.jpg",
     stats: {
         wins: 5793,
         goalShotRatio: 49.0,
@@ -86,7 +86,7 @@ export const players: Player[] = [
     nickname: "Gomin982",
     position: "Meio-Campo",
     number: 4,
-    image: "/src/assets/gomin982.jpg",
+  image: "/assets/gomin982.jpg",
     stats: {
         wins: 8936,
         goalShotRatio: 46.8,
@@ -106,7 +106,7 @@ export const players: Player[] = [
     nickname: "JPS",
     position: "Meio-Campo",
     number: 5,
-    image: "/src/assets/jps.jpg",
+  image: "/assets/jps.jpg",
     stats: {
       wins: 0,
       goalShotRatio: 0,
@@ -125,7 +125,7 @@ export const players: Player[] = [
     nickname: "Kaczam",
     position: "Atacante",
     number: 6,
-    image: "/src/assets/kaczam.jpg",
+  image: "/assets/kaczam.jpg",
     stats: {
         wins: 2570,
         goalShotRatio: 53.3,
